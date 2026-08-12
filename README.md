@@ -1,4 +1,4 @@
-# Algorithmic Fairness and Spatiotemporal Risk Auditing: An Enterprise-Grade Framework for Bias Mitigation and Scalable Predictive Policing
+# Algorithmic Fairness and Spatiotemporal Risk Auditing: An Enterprise Framework for Bias Mitigation and Scalable Predictive Policing
 
 ![Algorithmic Fairness and Predictive Policing Framework Dashboard](banner.png)
 
