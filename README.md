@@ -1,6 +1,6 @@
 # Algorithmic Fairness and Spatiotemporal Risk Auditing: An Enterprise-Grade Framework for Bias Mitigation and Scalable Predictive Policing
 
-![Banner Image](https://via.placeholder.com/1200x350/0f172a/38bdf8?text=Enterprise+ML+Auditing+Framework)
+![Algorithmic Fairness and Predictive Policing Framework Dashboard](banner.png)
 
 ![Python Version](https://img.shields.io/badge/python-3.14%2B-blue.svg)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ensemble-orange.svg)
