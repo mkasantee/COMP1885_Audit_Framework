@@ -1,1 +1,26 @@
-/data
+# --- Python Virtual Environment & Bytecode ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Temporary & Cache Directories ---
+tmp/
+cache/
+.dvc/cache/
+
+# --- Lock Files & Concurrency Markers ---
+lock
+rwlock.lock
+rwblock
+btime
+*.lock
+
+# --- Sensitive Credentials & Local Configs ---
+service-account
+config.local
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+# --- Core Data Manipulation & Numerical Computing ---
+numpy>=1.22.0
+pandas>=1.4.0
+
+# --- Machine Learning & Predictive Modeling ---
+scikit-learn>=1.0.0
+
+# --- Data Visualization & Telemetry Plotting ---
+matplotlib>=3.5.0
+
+# --- MLOps & Data Version Control ---
+dvc>=2.0.0
