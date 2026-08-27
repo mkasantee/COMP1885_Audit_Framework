@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def generate_sprint5_plot() -> None:
     """
     Visualises the batch deployment scalability audit results, illustrating 
-    the distribution of predicted risk scores across all 2000 processed sectors.
+    the distribution of predicted risk scores across all 2000 processed sectors with differentiated bar colors.
     """
     # Initialise the random seed to ensure consistent distribution simulation matching audit telemetry.
     np.random.seed(42)
@@ -16,7 +16,12 @@ def generate_sprint5_plot() -> None:
     
     # Configure enterprise visualisation parameters for executive presentation.
     plt.figure(figsize=(9, 5), dpi=300)
-    plt.hist(simulated_scores, bins=40, color='#2ca02c', edgecolor='black', alpha=0.85)
+    n, bins, patches = plt.hist(simulated_scores, bins=40, edgecolor='black', alpha=0.85)
+    
+    # Apply distinct colors to each bar using a colormap
+    cmap = plt.colormaps['viridis']
+    for i, patch in enumerate(patches):
+        patch.set_facecolor(cmap(i / len(patches)))
     
     # Apply layout configurations, titles, and grid formatting.
     plt.title("Sprint 5: Deployment Scalability Audit (Batch Risk Score Distribution)", fontsize=12, fontweight="bold", pad=12)

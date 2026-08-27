@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def generate_sprint1_plot() -> None:
     """
     Generates and saves a publication-quality distribution plot 
-    illustrating the raw deprivation index from Sprint 1 data.
+    illustrating the raw deprivation index from Sprint 1 data with differentiated bar colors.
     """
     # Seed initialization matches Sprint 1 to ensure identical data distribution
     np.random.seed(42)
@@ -24,7 +24,12 @@ def generate_sprint1_plot() -> None:
     
     # Figure styling configured to meet academic report standards
     plt.figure(figsize=(8, 5), dpi=300)
-    plt.hist(dataframe["deprivation_index"], bins=30, color="#2b5c8f", edgecolor="black", alpha=0.85)
+    n, bins, patches = plt.hist(dataframe["deprivation_index"], bins=30, edgecolor="black", alpha=0.85)
+    
+    # Apply distinct colors to each bar using a colormap
+    cmap = plt.colormaps['viridis']
+    for i, patch in enumerate(patches):
+        patch.set_facecolor(cmap(i / len(patches)))
     
     plt.title("Sprint 1: Urban Sector Deprivation Index Distribution", fontsize=12, fontweight="bold", pad=12)
     plt.xlabel("Socioeconomic Deprivation Index", fontsize=10, labelpad=8)
