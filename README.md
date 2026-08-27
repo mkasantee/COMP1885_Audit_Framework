@@ -1,4 +1,4 @@
-# Algorithmic Fairness and Spatiotemporal Risk Auditing: An Enterprise-Grade Framework for Bias Mitigation and Scalable Predictive Policing
+# Algorithmic Fairness and Spatiotemporal Risk Auditing: An Enterprise Framework for Bias Mitigation and Scalable Predictive Policing
 
 ![Algorithmic Fairness and Predictive Policing Framework Dashboard](banner.png)
 
@@ -74,10 +74,10 @@ This architecture demonstrates mastery across key technical domains required for
 ---
 
 ## Academic Report & Reference Corpus
-* **Project Dissertation / Full Report:** [Link to Master's Research Report File / PDF Placeholder]
+* **Project Dissertation / Full Report:** [To do]
 * **Key Academic References & Literature:**
-  * Barocas, S., Hardt, M., & Narayanan, A. *Fairness and Machine Learning: Limitations and Opportunities.* [Link to Text Placeholder]
-  * Additional municipal data governance and spatiotemporal criminology reference papers. [Link to References Placeholder]
+  * Barocas, S., Hardt, M., & Narayanan, A. *Fairness and Machine Learning: Limitations and Opportunities.* [To do]
+  * Additional municipal data governance and spatiotemporal criminology reference papers. [To do]
 
 ---
 
