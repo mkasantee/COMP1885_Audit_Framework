@@ -3,14 +3,13 @@
   
   <br><br>
 
-  <!-- Colorful Interactive Badges / Buttons -->
   <a href="https://mkasantee-comp1885-audit-framework-app-qxxcki.streamlit.app">
     <img src="https://img.shields.io/badge/🔴_LIVE_APP-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App">
   </a>
   <img src="https://img.shields.io/badge/Python-3.14%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/MLOps-Pipeline-8A2BE2?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="MLOps">
   <img src="https://img.shields.io/badge/Scikit_Learn-Ensemble-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn">
-  <img src="https://img.shields.io/badge/Compliance-Title_VII_|_Demographic_Parity-00C853?style=for-the-badge" alt="Compliance">
+  <img src="https://img.shields.io/badge/Compliance-Equality_Act_2010_|_Demographic_Parity-00C853?style=for-the-badge" alt="Compliance">
 </div>
 
 <br>
@@ -26,8 +25,6 @@
 
 Welcome to **VeriForce**—an enterprise-grade machine learning evaluation, algorithmic fairness auditing, and batch deployment pipeline. Moving beyond naive predictive modelling, this framework systematically addresses institutional data bias, quantifies disparate impact across socioeconomically vulnerable communities, and stress-tests batch inference scalability for secure municipal deployment.
 
-> **💡 The Mission:** *To arrest the bias in algorithms before they lock up municipal growth, ensuring predictive policing remains both mathematically accurate and legally compliant.*
-
 ---
 
 ## 🛠️ Core Technology Stack
@@ -41,7 +38,7 @@ Welcome to **VeriForce**—an enterprise-grade machine learning evaluation, algo
 
 ---
 
-## 🧩 The MLOps Pipeline Sprints (Interactive Widgets)
+## 🧩 The MLOps Pipeline Sprints 
 *Click the dropdowns below to explore the architecture of each sprint.*
 
 <details>
@@ -63,7 +60,7 @@ Training of an optimised <code>RandomForestRegressor</code> ensemble to forecast
 </details>
 
 <details>
-<summary><b>🟣 Sprint 4: Title VII & Demographic Parity Auditing</b></summary>
+<summary><b>🟣 Sprint 4: Equality Act 2010 & Demographic Parity Auditing</b></summary>
 <br>
 Execution of a demographic parity audit measuring systemic risk score inflation between standard and socio-economically vulnerable sectors, complete with automated compliance safety lockouts.
 </details>
@@ -77,7 +74,7 @@ Batch inference stress-testing, processing thousands of spatial records simultan
 ---
 
 ## 🗂️ Interactive Workspace Directory
-*A neat, fully clickable breakdown of the Visual Studio Code workspace.*
+*A neat, fully clickable breakdown of the codebase.*
 
 ### 🖥️ Executive Command Centre
 * 🌐 **[app.py](./app.py)** — The main Streamlit executive dashboard application.
@@ -97,7 +94,6 @@ Batch inference stress-testing, processing thousands of spatial records simultan
 ### 📂 Utilities, Data & Documentation
 * 🧹 **[extract_master_features.py](./extract_master_features.py)** — Extracts clean panel data for academic reporting.
 * 💾 **[crime_hotspot_panel_final.csv.xlsx](./crime_hotspot_panel_final.csv.xlsx)** — Representative master dataset (London LSOA-month panel).
-* 📑 **[requirements.txt](./requirements.txt)** — Python dependency configuration file.
 * 🎓 **[README_1885.txt](./README_1885.txt)** — Academic project submission documentation (COMP1885).
 
 ---
@@ -108,11 +104,13 @@ Want to run this command centre on your own machine? It takes less than two minu
 
 **1. Clone the repository and navigate to the directory:**
 ```bash
-git clone [https://github.com/Mkasantee/COMP1885_Audit_Framework.git](https://github.com/Mkasantee/COMP1885_Audit_Framework.git)
+git clone [https://github.com/mkasantee/COMP1885_Audit_Framework.git](https://github.com/mkasantee/COMP1885_Audit_Framework.git)
 cd COMP1885_Audit_Framework
 2. Install the required dependencies:
 
 Bash
 pip install streamlit pandas numpy scikit-learn matplotlib altair openpyxl requests
 3. Launch the Executive Dashboard:
+
+Bash
 py -m streamlit run app.py
