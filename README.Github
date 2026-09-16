@@ -1,0 +1,118 @@
+<div align="center">
+  <img src="https://th.bing.com/th/id/R.12385af1634649d31e92bbd73e43c70b?rik=pTa47xt7M4CQMA&pid=ImgRaw&r=0" alt="Cyber Crime Prediction Cover" width="100%" style="border-radius: 10px;">
+  
+  <br><br>
+
+  <!-- Colorful Interactive Badges / Buttons -->
+  <a href="https://mkasantee-comp1885-audit-framework-app-qxxcki.streamlit.app">
+    <img src="https://img.shields.io/badge/🔴_LIVE_APP-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App">
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.14%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/MLOps-Pipeline-8A2BE2?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="MLOps">
+  <img src="https://img.shields.io/badge/Scikit_Learn-Ensemble-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn">
+  <img src="https://img.shields.io/badge/Compliance-Title_VII_|_Demographic_Parity-00C853?style=for-the-badge" alt="Compliance">
+</div>
+
+<br>
+
+<div align="center">
+  <h1>🛡️ VeriForce: Spatial Risk Prediction & Bias Mitigation</h1>
+  <h3><i>Algorithmic Fairness Data Quality Auditing and Scalable Burglary Forecasting in Post-Pandemic London (2019-2024)</i></h3>
+</div>
+
+---
+
+## 🚀 Executive Summary
+
+Welcome to **VeriForce**—an enterprise-grade machine learning evaluation, algorithmic fairness auditing, and batch deployment pipeline. Moving beyond naive predictive modelling, this framework systematically addresses institutional data bias, quantifies disparate impact across socioeconomically vulnerable communities, and stress-tests batch inference scalability for secure municipal deployment.
+
+> **💡 The Mission:** *To arrest the bias in algorithms before they lock up municipal growth, ensuring predictive policing remains both mathematically accurate and legally compliant.*
+
+---
+
+## 🛠️ Core Technology Stack
+
+| Category | Tools & Libraries |
+| :--- | :--- |
+| **🧠 Machine Learning** | `scikit-learn` (RandomForestRegressor), Predictive Ensembling |
+| **🌍 Spatial Analytics** | Custom Risk Density Ratios, OpenStreetMap Data, Geo-Spatial Lags |
+| **⚖️ Governance (AI)** | Demographic Parity Audits, Statistical Disparity Unmasking |
+| **🎨 Enterprise UI** | `streamlit`, `altair`, `matplotlib`, `pandas`, `numpy` |
+
+---
+
+## 🧩 The MLOps Pipeline Sprints (Interactive Widgets)
+*Click the dropdowns below to explore the architecture of each sprint.*
+
+<details>
+<summary><b>🟢 Sprint 1: Spatial Data Ingestion & Deprivation Mapping</b></summary>
+<br>
+Ingestion of spatial telemetry and creation of baseline municipal sector grids mapped against socio-economic deprivation indices to establish historical baseline truths without algorithmic interference.
+</details>
+
+<details>
+<summary><b>🟡 Sprint 2: Feature Engineering & Risk Density Ratios</b></summary>
+<br>
+Construction of domain-specific variables, notably the <b>Risk Density Ratio</b>. By evaluating historical incident pressure relative to active patrol frequencies, the model isolates areas of under-resourcing versus true crime density.
+</details>
+
+<details>
+<summary><b>🟠 Sprint 3: Predictive Modelling & Explainable AI (XAI)</b></summary>
+<br>
+Training of an optimised <code>RandomForestRegressor</code> ensemble to forecast burglary frequencies. Features rigorous test-split evaluation and feature-importance extraction for complete algorithmic transparency.
+</details>
+
+<details>
+<summary><b>🟣 Sprint 4: Title VII & Demographic Parity Auditing</b></summary>
+<br>
+Execution of a demographic parity audit measuring systemic risk score inflation between standard and socio-economically vulnerable sectors, complete with automated compliance safety lockouts.
+</details>
+
+<details>
+<summary><b>🔵 Sprint 5: Batch Inference & Deployment Scalability</b></summary>
+<br>
+Batch inference stress-testing, processing thousands of spatial records simultaneously to evaluate prediction distribution bounds, identify hotspot outliers, and ensure enterprise server scalability.
+</details>
+
+---
+
+## 🗂️ Interactive Workspace Directory
+*A neat, fully clickable breakdown of the Visual Studio Code workspace.*
+
+### 🖥️ Executive Command Centre
+* 🌐 **[app.py](./app.py)** — The main Streamlit executive dashboard application.
+
+### 🧬 MLOps Algorithm Scripts
+* 📥 **[sprint1_data_ingestion.py](./sprint1_data_ingestion.py)** — Executes raw spatiotemporal data validation.
+* 📊 **[sprint1_plot_data_distribution.py](./sprint1_plot_data_distribution.py)** — Generates deprivation distribution visualisations.
+* ⚙️ **[sprint2_feature_engineering.py](./sprint2_feature_engineering.py)** — Engineers risk interaction terms and partitions data.
+* 📉 **[sprint2_plot_feature_engineering.py](./sprint2_plot_feature_engineering.py)** — Generates training split relationship visualisations.
+* 🧠 **[sprint3_model_evaluation.py](./sprint3_model_evaluation.py)** — Evaluates predictive MSE and R-Squared metrics.
+* 📈 **[sprint3_plot_model_performance.py](./sprint3_plot_model_performance.py)** — Generates model evaluation comparison visualisations.
+* ⚖️ **[sprint4_fairness_audit.py](./sprint4_fairness_audit.py)** — Computes demographic parity disparity between sectors.
+* 📉 **[sprint4_plot_fairness_audit.py](./sprint4_plot_fairness_audit.py)** — Generates demographic parity disparity visualisations.
+* 🏭 **[sprint5_deployment_pipeline.py](./sprint5_deployment_pipeline.py)** — Initialises production-grade batch inference scaling.
+* 📊 **[sprint5_plot_deployment_scalability.py](./sprint5_plot_deployment_scalability.py)** — Generates batch risk score distribution visualisations.
+
+### 📂 Utilities, Data & Documentation
+* 🧹 **[extract_master_features.py](./extract_master_features.py)** — Extracts clean panel data for academic reporting.
+* 💾 **[crime_hotspot_panel_final.csv.xlsx](./crime_hotspot_panel_final.csv.xlsx)** — Representative master dataset (London LSOA-month panel).
+* 📑 **[requirements.txt](./requirements.txt)** — Python dependency configuration file.
+* 🎓 **[README_1885.txt](./README_1885.txt)** — Academic project submission documentation (COMP1885).
+
+---
+
+## 💻 Installation & Local Execution
+
+Want to run this command centre on your own machine? It takes less than two minutes.
+
+**1. Clone the repository and navigate to the directory:**
+```bash
+git clone [https://github.com/Mkasantee/COMP1885_Audit_Framework.git](https://github.com/Mkasantee/COMP1885_Audit_Framework.git)
+cd COMP1885_Audit_Framework
+2. Install the required dependencies:
+
+Bash
+pip install streamlit pandas numpy scikit-learn matplotlib altair openpyxl requests
+3. Launch the Executive Dashboard:
+py -m streamlit run app.py
