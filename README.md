@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://th.bing.com/th/id/R.12385af1634649d31e92bbd73e43c70b?rik=pTa47xt7M4CQMA&pid=ImgRaw&r=0" alt="Cyber Crime Prediction Cover" width="100%" style="border-radius: 10px;">
+  <img src="./Photo for github.jpg" alt="VeriForce Cyber Security Banner" width="100%" style="border-radius: 10px;">
   
   <br><br>
 
@@ -16,14 +16,16 @@
 
 <div align="center">
   <h1>🛡️ VeriForce: Spatial Risk Prediction & Bias Mitigation</h1>
-  <h3><i>Algorithmic Fairness Data Quality Auditing and Scalable Burglary Forecasting in Post-Pandemic London (2019-2024)</i></h3>
+  <h3><i>Algorithmic Fairness Data Quality Auditing and Scalable Burglary Forecasting in London (2019 to 2024)</i></h3>
 </div>
 
 ---
 
 ## 🚀 Executive Summary
 
-Welcome to **VeriForce**—an enterprise-grade machine learning evaluation, algorithmic fairness auditing, and batch deployment pipeline. Moving beyond naive predictive modelling, this framework systematically addresses institutional data bias, quantifies disparate impact across socioeconomically vulnerable communities, and stress-tests batch inference scalability for secure municipal deployment.
+Welcome to VeriForce. This repository showcases an enterprise grade machine learning evaluation, algorithmic fairness auditing, and production ready batch deployment architecture designed to solve complex spatiotemporal predictive challenges across urban municipal sectors. Moving far beyond basic predictive modelling, this project bridges the critical gap between advanced data science and ethical AI governance. 
+
+By engineering novel spatial interaction metrics like the Risk Density Ratio, implementing robust Random Forest ensemble regressors, and enforcing strict regulatory compliance frameworks under the Equality Act 2010, VeriForce actively unmasks feedback loops, neutralises historical policing data bias, and stress tests high volume batch inference scalability for secure municipal deployment. Built with a fully interactive Streamlit executive command centre, this end to end platform demonstrates industry ready competency in MLOps pipeline automation, spatial data analytics, and responsible artificial intelligence architecture.
 
 ---
 
@@ -31,44 +33,44 @@ Welcome to **VeriForce**—an enterprise-grade machine learning evaluation, algo
 
 | Category | Tools & Libraries |
 | :--- | :--- |
-| **🧠 Machine Learning** | `scikit-learn` (RandomForestRegressor), Predictive Ensembling |
-| **🌍 Spatial Analytics** | Custom Risk Density Ratios, OpenStreetMap Data, Geo-Spatial Lags |
-| **⚖️ Governance (AI)** | Demographic Parity Audits, Statistical Disparity Unmasking |
-| **🎨 Enterprise UI** | `streamlit`, `altair`, `matplotlib`, `pandas`, `numpy` |
+| **🧠 Machine Learning** | `scikit-learn` (RandomForestRegressor), Non-linear Ensembling, Train Test Parity Validation |
+| **🌍 Spatial Analytics** | Custom Risk Density Ratios, OpenStreetMap Telemetry, Geo-Spatial Feature Engineering |
+| **⚖️ Governance & Ethics** | Demographic Parity Auditing, Statistical Disparity Unmasking, Automated Safety Lockouts |
+| **🎨 Enterprise Architecture** | `streamlit`, `altair`, `matplotlib`, `pandas`, `numpy`, Modular Script Design |
 
 ---
 
 ## 🧩 The MLOps Pipeline Sprints 
-*Click the dropdowns below to explore the architecture of each sprint.*
+*Click the dropdowns below to explore the technical architecture of each operational sprint.*
 
 <details>
 <summary><b>🟢 Sprint 1: Spatial Data Ingestion & Deprivation Mapping</b></summary>
 <br>
-Ingestion of spatial telemetry and creation of baseline municipal sector grids mapped against socio-economic deprivation indices to establish historical baseline truths without algorithmic interference.
+Systematic ingestion of complex spatiotemporal panel data across thousands of spatial units. Establishes baseline municipal sector grids mapped directly against socio economic deprivation indices to anchor historical ground truths without introducing algorithmic interference.
 </details>
 
 <details>
 <summary><b>🟡 Sprint 2: Feature Engineering & Risk Density Ratios</b></summary>
 <br>
-Construction of domain-specific variables, notably the <b>Risk Density Ratio</b>. By evaluating historical incident pressure relative to active patrol frequencies, the model isolates areas of under-resourcing versus true crime density.
+Construction of sophisticated domain specific interaction variables, most notably the <b>Risk Density Ratio</b>. By evaluating historical incident pressure relative to active patrol frequencies, the model successfully separates genuine crime concentrations from areas suffering from systemic under resourcing.
 </details>
 
 <details>
 <summary><b>🟠 Sprint 3: Predictive Modelling & Explainable AI (XAI)</b></summary>
 <br>
-Training of an optimised <code>RandomForestRegressor</code> ensemble to forecast burglary frequencies. Features rigorous test-split evaluation and feature-importance extraction for complete algorithmic transparency.
+Training of an optimised <code>RandomForestRegressor</code> ensemble capable of capturing complex non-linear spatial relationships. Incorporates rigorous test split validations, MSE performance metrics, and feature importance extraction to provide complete transparency into algorithmic decision making.
 </details>
 
 <details>
 <summary><b>🟣 Sprint 4: Equality Act 2010 & Demographic Parity Auditing</b></summary>
 <br>
-Execution of a demographic parity audit measuring systemic risk score inflation between standard and socio-economically vulnerable sectors, complete with automated compliance safety lockouts.
+Execution of a comprehensive demographic parity audit measuring systemic risk score inflation between standard and socio-economically vulnerable sectors. Features an automated compliance engine that instantly locks out deployment sequences if mathematical disparity exceeds statutory legal boundaries.
 </details>
 
 <details>
 <summary><b>🔵 Sprint 5: Batch Inference & Deployment Scalability</b></summary>
 <br>
-Batch inference stress-testing, processing thousands of spatial records simultaneously to evaluate prediction distribution bounds, identify hotspot outliers, and ensure enterprise server scalability.
+Production grade batch inference stress testing, processing thousands of spatial records simultaneously. Evaluates prediction distribution skewness, identifies extreme hotspot outliers, and validates cloud server scalability for live stakeholder operations.
 </details>
 
 ---
