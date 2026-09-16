@@ -510,7 +510,7 @@ if not base_df.empty:
                 <h3>Sprint 3: Explainable AI (XAI) & Algorithmic Cognition</h3>
                 <p>The predictive ensemble is computationally supported by exactly <strong>{rf_estimators:,} decision trees</strong>. The primary mathematical driver identified as <strong>{top_feature_name}</strong> dictates the highest predictive influence, holding an absolute decision weight of <strong>{top_feature_weight:.4f}</strong>.</p>
 
-                <h3>Sprint 4: Demographic Audit & Title VII Compliance</h3>
+                <h3>Sprint 4: Demographic Audit</h3>
                 <p>The algorithm was stringently audited for systemic bias. The mean danger score algorithmically assigned to standard sectors was evaluated at <strong>{std_mean:.4f}</strong>, whilst explicitly vulnerable sectors were scored at <strong>{vuln_mean:.4f}</strong>. The resulting mathematical disparity of <strong>{current_disparity:.4f}</strong> was continuously benchmarked against the legal tolerance of {active_legal_limit:.2f}.</p>
 
                 <h3>Sprint 5: Deployment Scalability</h3>
@@ -906,7 +906,7 @@ if not df.empty and len(ml_df) >= 20:
         </div>
         """, unsafe_allow_html=True)
 
-    # Module 6: Sprint 4 enforces Title VII compliance tests, stringently scrutinising bias thresholds across demographic vectors.
+    # Module 6: Sprint 4 enforces Demographic Parity tests, stringently scrutinising bias thresholds across demographic vectors.
     elif navigation == pages[5]:
         st.title("🛡️ VeriForce - Sprint 4")
         st.markdown(f"""<h3 class="hover-title" title="GRAPH MEANING: Investigates the algorithm for systemic bias via the disproportionate allocation of danger scores across demographic boundaries.&#10;[Y-AXIS]: The mean Danger Score designated by the AI model.&#10;[X-AXIS]: Standardised baseline areas juxtaposed against Vulnerable socio-economic areas.">Algorithmic Fairness Audit</h3>""", unsafe_allow_html=True)

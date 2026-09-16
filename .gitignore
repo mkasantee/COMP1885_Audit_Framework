@@ -24,3 +24,8 @@ config.local
 # --- Operating System Files ---
 .DS_Store
 Thumbs.db
+
+venv/
+__pycache__/
+.streamlit/
+.DS_Store
