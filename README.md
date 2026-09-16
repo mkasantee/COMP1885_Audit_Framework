@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="./Photo for github.jpg" alt="VeriForce Cyber Security Banner" width="100%" style="border-radius: 10px;">
+  <img src="./banner.jpg" alt="VeriForce Cyber Security Banner" width="100%" style="border-radius: 10px;">
+</div>
   
   <br><br>
 
